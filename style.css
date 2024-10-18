@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;;
+}
+
+.main-nav{
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+   
+}
+.font-sizing{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 600;
+line-height: 14.52px;
+text-align: left;
+
+}
+.blue-line{
+    width: 2000px; 
+    height: 45px; 
+    
+    background-color: #008FF8;
+    color: white;
+    font-size: 12px;
+    gap: 0px;
+    opacity: 0px  
+}
+.blue-line-content{
+    width: 1435px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.white-line{
+    width: 2000px;
+    height: 109px;
+    top: 47px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow:  0 5px 30px -2px  #85ccff;
+
+}
+
+.menus{
+    font-weight: 600;
+    line-height: 21.78;
+}
+.line-hight-6{
+   line-height: 60px;
+}
+.list:hover{
+    color: green;
+}
+.about-hospital{
+    position: relative;
+    display: inline-block;
+}
+.about-hospital-dropdown { 
+    display: none;
+    position: absolute;
+    top: 248px;
+    width: 278px;
+    height: 122px;
+    line-height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.4px 0.4px 12px  #D2ECFF;
+    
+}
+
+.about-hospital:hover .about-hospital-dropdown{
+    display:block;
+}
+.Department-dropdown{
+    display: none;
+    position: absolute;
+    width: 278px;
+    height: 448px;
+    top: 148px;
+    line-height:50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0.4px 0.4px 12px  #D2ECFF;
+}
+.Department:hover .Department-dropdown{
+    display: block;
+}
+
+.dropdown-menu{
+     display: flex;
+     margin-left: 20px;
+     width: Fixed (240px)px;
+height: Hug (42px)px;
+
+}
+.dropdown-menu:hover{
+   
+    background-color: #008FF8;
+    border-radius: 10px;
+    color: white;
+    margin:12px 19px;
+    
+}
+.Appointment{
+    font-size: 18px;
+    width: 138px;
+    height: 46px;
+    border: 0.5px solid #008FF8;
+    border-radius: 8px;
+    background-color: white;
+    color: #008FF8;
+    padding: 12px;
+}
+.Appointment:hover{
+    background-color: #008FF8;
+    color: white;
+    cursor: pointer;
+}
+.dropdown-list{
+    padding: 0px;
+    margin: 0px;
+}
+.me-27px{
+    margin-right: 27px;
+}
+.white-nav-text-fs{
+    font-size: 18px;  
+}
+
+.icon-HW{
+    height: 24px;
+    width: 24px;
+}
+.text-skyblue{
+    color: #008FF8;
+}
+.w-100{
+    width: 100%;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.w-100{
+    width: 100%;
+}
+.icon-HW{
+    height: 24px;
+    width: 24px;
+}
+.text-skyblue{
+    color: #008FF8;
+}
+.d-block{
+    display:block ;
+}
+.d-flex{
+display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.list-style-none{
+    list-style-type: none;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+.line-hight{
+    line-height: 60px;
+}
+.bg-white{
+    background-color: white;
+}
